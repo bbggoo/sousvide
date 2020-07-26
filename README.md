@@ -29,4 +29,6 @@ uasyncio v3, by peterhinch
 
 https://github.com/peterhinch/micropython-async/tree/master/v3
 
+All of this code is free for personal use, commercial use is not free.
+
 Hope you enjoy this code
