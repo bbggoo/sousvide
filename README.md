@@ -69,18 +69,31 @@ https://blog.csdn.net/StoryMonster/article/details/99443480?utm_medium=distribut
 
 3.6 sh1106 oled driver
 
-https://www.cnblogs.com/katachi/p/9629565.html
+https://github.com/raspberrypi/pico-micropython-examples/tree/master/i2c/1106oled
 
 3.7 chinese display
 
-https://www.cnblogs.com/katachi/p/9629565.html ,by kekemuyu
+http://wk20.cn/?t=118
 
-3.8ntp time liberary
+3.8 ntp time liberary
 
 https://github.com/micropython/micropython/blob/master/ports/esp8266/modules/ntptime.py
 
 3.9 Rotary Encoder
 
-https://github.com/MikeTeachman/micropython-rotary
+https://github.com/SpotlightKid/micropython-stm-lib/blob/master/encoder/encoder.py
 
 Hope you enjoy the code
+
+History：
+version 0.2 in progress
+chinese display utility GT20L16S1Y chinese font chip ,https://www.cnblogs.com/katachi/p/9629565.html abandened,just use http://wk20.cn/?t=118
+ 
+Using more simple sh1106 oled driver, https://www.cnblogs.com/katachi/p/9629565.html replace by https://github.com/raspberrypi/pico-micropython-examples/tree/master/i2c/1106oled
+
+Rotary Encoder(https://github.com/MikeTeachman/micropython-rotary) not comptible with uasync, https://github.com/SpotlightKid/micropython-stm-lib/blob/master/encoder/encoder.py  instead
+
+version 0.1  on 27 Jul 2020
+
+
+
